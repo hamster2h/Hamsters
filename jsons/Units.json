@@ -13,5 +13,21 @@
 		"requiredResource": "Uranium",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
+	},
+	{
+		"name": "Hamster Frigate",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Aliens",
+		"replaces": "Frigate",
+		"movement": 6,
+		"strength": 25,
+		"rangedStrength": 32,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
 	}
 ]
