@@ -37,5 +37,31 @@
 			"Indirect Fire"
 		],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Missile Cruiser H",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Hamsters",
+		"replaces": "Missile Cruiser",
+		"movement": 10,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 6,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[100]% chance to intercept air attacks",
+			"Can see invisible [Submarine] units",
+			"Can carry [4] [Missile] units",
+			"[+100]% Strength <vs [Submarine] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire"
+		],
+		"attackSound": "shipguns"
 	}
 ]
