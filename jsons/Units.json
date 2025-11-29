@@ -1,23 +1,8 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	},
-	{
-		"name": "Hamster Frigate",
+		"name": "Frigate H",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Hamsters",
 		"replaces": "Frigate",
 		"movement": 6,
 		"strength": 25,
@@ -32,9 +17,9 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Hamster Battleship",
+		"name": "Battleship H",
 		"unitType": "Ranged Water",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Hamsters",
 		"replaces": "Battleship",
 		"movement": 7,
 		"strength": 55,
