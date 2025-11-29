@@ -32,17 +32,25 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Battleship",
+		"name": "Hamster Battleship",
 		"unitType": "Ranged Water",
-		"movement": 5,
+		"uniqueTo": "Aliens",
+		"replaces": "Battleship",
+		"movement": 7,
 		"strength": 55,
 		"rangedStrength": 55,
 		"range": 5,
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
+		"upgradesTo": "Missile Cruiser",
+		"obsoleteTech": "Robotics",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire"
+		],
 		"attackSound": "shipguns"
 	}
 ]
