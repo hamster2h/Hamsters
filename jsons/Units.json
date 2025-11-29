@@ -21,7 +21,7 @@
 		"replaces": "Frigate",
 		"movement": 6,
 		"strength": 25,
-		"rangedStrength": 32,
+		"rangedStrength": 28,
 		"range":3,
 		"cost": 185,
 		"requiredResource": "Iron",
@@ -30,5 +30,19 @@
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 5,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
 	}
 ]
